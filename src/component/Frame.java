@@ -12,6 +12,8 @@ public class Frame extends JFrame {
 	PlusBtn plusBtn = new PlusBtn(label);
 	MinusBtn minusBtn = new MinusBtn(label);
 	LineLabel lineLabel = new LineLabel();
+	TextLabel textLabel = new TextLabel();
+	
 	public Frame() {
 		
 		getContentPane().setForeground(new Color(243, 156, 18));
@@ -28,6 +30,7 @@ public class Frame extends JFrame {
 		add(label);
 		add(minusBtn);
 		add(lineLabel);
+		add(textLabel);
 		
 	}
 		

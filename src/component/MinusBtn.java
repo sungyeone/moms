@@ -17,7 +17,7 @@ public MinusBtn(NumberLabel label) {
 		setText("-");
 		setFont(new Font("휴먼엑스포", Font.BOLD, 37));
 		setBackground(new Color(190, 190, 190));
-		setBounds(240, 119, 56, 50);
+		setBounds(223, 119, 50, 40);
 		Border border = BorderFactory.createLineBorder(new Color(190, 190, 190), 1);
 		setBorder(border);
 

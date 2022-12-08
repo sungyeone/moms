@@ -19,7 +19,7 @@ public class NumberLabel extends JLabel {
 		setHorizontalAlignment(JLabel.CENTER);
 	    Border border = BorderFactory.createLineBorder(new Color(190, 190, 190), 2);
 	    setBorder(border); 
-	    setBounds(300, 119, 70, 50); 
+	    setBounds(275, 119, 60, 40); 
 			
 	}
 

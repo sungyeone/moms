@@ -17,7 +17,7 @@ public class PlusBtn extends JButton {
 		setText("+");
 		setFont(new Font("휴먼엑스포", Font.BOLD, 30));
 		setBackground(new Color(190, 190, 190));
-		setBounds(375, 119, 56, 50);
+		setBounds(336, 119, 50, 40);
 		Border border = BorderFactory.createLineBorder(new Color(190, 190, 190), 1);
 		setBorder(border);
 
